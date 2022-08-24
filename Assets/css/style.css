@@ -1,0 +1,40 @@
+/*página index*/
+.first {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 30px;
+
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: grey;
+}
+
+.p{
+    padding: 30px;
+}
+
+.imagem{
+    border-radius: 50%;
+}
+
+.wh{
+    width: 500px;
+    height: 500px;
+}
